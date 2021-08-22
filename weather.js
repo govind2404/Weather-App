@@ -12,7 +12,7 @@ frm.addEventListener('submit', async function (e)  {
     e.preventDefault();
 
     const data = frm.elements.querry.value;
-    const wet = await axios.get(`http://api.weatherapi.com/v1/current.json?key=76e234318440469da26112821211506&q=${data}`);
+    const wet = await axios.get(`https://api.weatherapi.com/v1/current.json?key=76e234318440469da26112821211506&q=${data}`);
     
     
 
